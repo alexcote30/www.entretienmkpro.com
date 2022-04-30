@@ -1,33 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
+<html lang="fr">
+<head>
     <title>Entretien MK Pro - Véhicule à domicile</title>
-
-
-    <!-- Additional CSS Files -->
+    <meta charset="utf-8">
+    <meta name="keywords" lang="fr" content="Nettoyage, Ménage, Entretien, Ménager, Entretien ménager, Sherbrooke, Femme de ménage, Nettoyeur, Vapeur">
+    <meta name="description" content="Service d'entretien ménager de qualité supérieure pour les entreprises.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
     <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
-
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
-
     <link rel="stylesheet" href="assets/css/lightbox.css">
-
-    </head>
-    
-    <body>
-    
-    <!-- ***** Preloader Start ***** -->
+    <link rel="stylesheet" href="assets/css/mobile-styles.css">
+</head>
+<body>
     <div id="preloader">
         <div class="jumper">
             <div></div>
@@ -35,15 +23,7 @@
             <div></div>
         </div>
     </div>  
-    <!-- ***** Preloader End ***** -->
-    
-    
-    <!-- ***** Header Area Start ***** -->
-         <div id="header"></div>
-
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ***** Main Banner Area Start ***** -->
+    <div id="header"></div>
     <div class="page-heading-vehicule" id="top">
         <div class="container">
             <div class="row">
@@ -55,17 +35,12 @@
             </div>
         </div>
     </div>
-    <!-- ***** Main Banner Area End ***** -->
-
-
-    <!-- ***** Product Area Starts ***** -->
     <section class="section" id="product">
         <div class="container">
             <div class="row">
             <div class="col-lg-8">
                 <div class="right-content">
                     <h4>Véhicule à domicile</h4>
-                    <!-- <span class="price">$75.00</span> -->
                     <ul class="stars">
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
@@ -98,20 +73,11 @@
             </div>
         </div>
     </section>
-    <!-- ***** Product Area Ends ***** -->
-    
-    <!-- ***** Footer Start ***** -->
-         <div id="footer"></div>
-
-
-    <!-- jQuery -->
+    <div id="footer"></div>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="assets/js/jquery-2.1.0.min.js"></script>
-
-    <!-- Bootstrap -->
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins -->
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/accordions.js"></script>
     <script src="assets/js/datepicker.js"></script>
@@ -122,32 +88,9 @@
     <script src="assets/js/slick.js"></script> 
     <script src="assets/js/lightbox.js"></script> 
     <script src="assets/js/isotope.js"></script> 
-    <script src="assets/js/quantity.js"></script>
-    
-    <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-
-    <script>
-        $(function() {
-            
-            $( "#footer" ).load( "footer.html" );
-            $( "#header" ).load( "header.html" );
-
-            var selectedClass = "";
-            $("p").click(function(){
-            selectedClass = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(50, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut();
-            setTimeout(function() {
-              $("."+selectedClass).fadeIn();
-              $("#portfolio").fadeTo(50, 1);
-            }, 500);
-                
-            });
-        });
-
-    </script>
-
+    <script src="assets/js/quantity.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <script>loadHeaderFooter();</script>
   </body>
-
 </html>
