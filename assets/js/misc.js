@@ -1,4 +1,4 @@
-$(function loadFooterHeader() {
+$(function() {
     $( "#footer" ).load( "footer.html" );
     $( "#header" ).load( "header.html" );
     var selectedClass = "";
